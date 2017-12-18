@@ -59,6 +59,9 @@ img {
   text-align: center;
 
 }
+.navbar li {
+  cursor: pointer; 
+}
 .navbar-brand{
   color: white;
 }
