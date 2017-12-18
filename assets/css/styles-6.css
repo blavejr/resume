@@ -52,6 +52,11 @@ img {
     width: 150px;
     height: 150px;
 }
+section{
+  border-color: red;
+  border-style: solid;
+  padding: 10px;
+}
 .navbar{
   background: #f44250;
   border-color: #f44250;
@@ -60,7 +65,7 @@ img {
 
 }
 .navbar li {
-  cursor: pointer!important; 
+  cursor: pointer!important;
 }
 .navbar-brand{
   color: white;
@@ -70,7 +75,7 @@ img {
   color: white
 }
 .someSpace{
-  padding: 25px
+  padding: 15px
 }
 .spacer{
   padding: 60px;
