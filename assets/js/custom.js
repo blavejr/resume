@@ -60,7 +60,7 @@ $('document').ready(() => {
   // Get initial width of the screen
   currentWidth = $(window).width();
   if (currentWidth < 767) {
-    offset = -330;
+    offset = -70;
   } else {
     offset = -110;
   }
@@ -69,7 +69,7 @@ $('document').ready(() => {
   $(window).resize(function() {
     // This will execute whenever the window is resized
     if ($(window).width() < 767) {
-      offset = -330;
+      offset = -70;
     } else {
       offset = -110;
     }
