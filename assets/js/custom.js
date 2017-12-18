@@ -78,9 +78,8 @@ $('document').ready(() => {
   });
 
   //Hide
-    $('.nav a').on('click', function(){
+    $('#nav_bar').on('click', function(){
       if ($(window).width() < 767) {
-        $('.btn-navbar').click(); //bootstrap 2.x
         $('.navbar-toggle').click() //bootstrap 3.x by Richard
       }
 
