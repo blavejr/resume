@@ -51,9 +51,9 @@ $('document').ready(() => {
   });
 
   // Smooth scroll
-  $("#acomplishmentsBTN").click(function() {
+  $("#accomplishmentsBTN").click(function() {
     $('html, body').animate({
-      scrollTop: $("#acomplishmentsSection").offset().top + offset
+      scrollTop: $("#accomplishmentsSection").offset().top + offset
     }, 2000);
   });
 
@@ -77,10 +77,13 @@ $('document').ready(() => {
     $(window).width(); // New width
   });
 
-//Hide
-  $('.nav a').on('click', function(){
-    $('.btn-navbar').click(); //bootstrap 2.x
-    $('.navbar-toggle').click() //bootstrap 3.x by Richard
-});
+  //Hide
+    $('.nav a').on('click', function(){
+      if ($(window).width() < 767) {
+        $('.btn-navbar').click(); //bootstrap 2.x
+        $('.navbar-toggle').click() //bootstrap 3.x by Richard
+      }
+
+  });
 
 });
