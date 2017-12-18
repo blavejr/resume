@@ -95,6 +95,28 @@ section{
 .prayer{
   width: 100%;
 }
+.popUpOnHover {
+    position: relative;
+    display: inline-block;
+}
+
+.popUpOnHover .popUpText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.popUpOnHover:hover .popUpText {
+    visibility: visible;
+}
 .nav-tabs li a{
   font-weight: 400;
   color: black;
