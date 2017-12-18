@@ -60,7 +60,7 @@ img {
 
 }
 .navbar li {
-  cursor: pointer; 
+  cursor: pointer!important; 
 }
 .navbar-brand{
   color: white;
