@@ -66,13 +66,19 @@ section{
 }
 .navbar li {
   cursor: pointer!important;
+  list-style-type: none;
 }
 .navbar-brand{
   color: white;
+  height: 90px;
+  width: 90px;
 }
 .nav li a{
   font-weight: 500;
   color: white
+}
+.navbar-default .navbar-nav li a{
+  color: white!important;
 }
 .someSpace{
   padding: 15px
@@ -97,6 +103,9 @@ section{
 .nav-tabs li.active a:focus,
 .nav-tabs>li.active>a:hover{
   color: #f44250;
+}
+div#nav_bar.navbar-collapse.collapse.in{
+  text-align: right!important;
 }
 .wrapper {
   background: #f44250;
