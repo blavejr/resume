@@ -1,65 +1,80 @@
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+var offset = 110;
+var currentWidth;
 
 function animateOnAction(tag, animationName) {
   $(tag).addClass(animationName).one(animationEnd, () => {
-      $(tag).removeClass(animationName);
-    });
-  }
+    $(tag).removeClass(animationName);
+  });
+}
 
 function removeClass(tag, className) {
   $(tag).removeClass(className);
 }
 
-  $('document').ready(() => {
 
-    // Smooth scroll
-    $("#topBTN").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#aboutmeSection").offset().top - 110
-        }, 2000);
-    });
+$('document').ready(() => {
 
-    // Smooth scroll
-    $("#aboutBTN").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#aboutmeSection").offset().top - 110
-        }, 2000);
-    });
-
-    // Smooth scroll
-    $("#experienceBTN").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#experienceSection").offset().top - 110
-        }, 2000);
-    });
-
-    // Smooth scroll
-    $("#projectsBTN").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#projectsSection").offset().top - 110
-        }, 2000);
-    });
-
-    // Smooth scroll
-    $("#skillsBTN").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#skillsSection").offset().top - 110
-        }, 2000);
-    });
-
-    // Smooth scroll
-    $("#acomplishmentsBTN").click(function() {
-        $('html, body').animate({
-            scrollTop: $("#acomplishmentsSection").offset().top - 110
-        }, 2000);
-    });
-
-    $(window).scroll(function() {
-      console.log(this.scrollY);
-      if (this.scrollY > 200 && this.scrollY < 300 ) {
-
-        animateOnAction('h1.display-5', 'animated rubberBand');
-      }
+  // Smooth scroll
+  $("#topBTN").click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 2000);
   });
 
+  // Smooth scroll
+  $("#aboutBTN").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#aboutmeSection").offset().top + offset
+    }, 2000);
   });
+
+  // Smooth scroll
+  $("#experienceBTN").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#experienceSection").offset().top + offset
+    }, 2000);
+  });
+
+  // Smooth scroll
+  $("#projectsBTN").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#projectsSection").offset().top + offset
+    }, 2000);
+  });
+
+  // Smooth scroll
+  $("#skillsBTN").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#skillsSection").offset().top + offset
+    }, 2000);
+  });
+
+  // Smooth scroll
+  $("#acomplishmentsBTN").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#acomplishmentsSection").offset().top + offset
+    }, 2000);
+  });
+
+  // Get initial width of the screen
+  currentWidth = $(window).width();
+  if (currentWidth < 767) {
+    offset = -330;
+  } else {
+    offset = -110;
+  }
+
+// if user changes the width whilest the app is open
+  $(window).resize(function() {
+    // This will execute whenever the window is resized
+    if ($(window).width() < 767) {
+      offset = -330;
+    } else {
+      offset = -110;
+    }
+    console.log(offset);
+    $(window).width(); // New width
+  });
+
+});
