@@ -29,15 +29,15 @@ h6 {
   font-weight: 700;
 }
 a {
-  
   color: #2e4049;
+  text-decoration: none;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #10171a;
 }
 a:focus {
@@ -53,12 +53,25 @@ img {
     width: 150px;
     height: 150px;
 }
+.card-img-top{
+  border-radius: 50px;
+  width: 100%;
+  height: 300px;
+}
 section{
   border-color: red;
   border-style: solid;
   padding: 10px;
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.blog-section{
+  border-color: none;
+  border-style: none;
+  padding: 10px;
+  box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .navbar{
   background: #f44250;
   border-color: #f44250;
@@ -163,13 +176,16 @@ div#nav_bar.navbar-collapse.collapse.in{
   }
 }
 #blogItem{
-  border-style: solid;
-  border-color: #ff0000;
-  padding: 5px;
+  border-style: none;
+  border-color: none;
+  margin: 35px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #blogItem:hover{
-  background-color: #e86870;
+  background-color: #c9cacc;
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: none;
 }
 #myTweetsContainer{
   max-height: 200px;
