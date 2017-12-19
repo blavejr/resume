@@ -44,7 +44,7 @@
       </div>
       <div id="nav_bar" class="collapse navbar-collapse">
       <ul>
-          <li><a  id="topBTN"><img class="navbar-brand" href="index.html" src="assets/images/profile.jpg" /></a></li>
+          <li><a  id="topBTN" href="index.html" ><img class="navbar-brand" src="assets/images/profile.jpg" /></a></li>
       </ul>
         <ul class="nav navbar-nav">
           <li><a id="aboutBTN">About me</a></li>
@@ -263,7 +263,7 @@
         </div>
         <!--//intro-->
         <div class="item fa fa-certificate">
-          <span class="project-title"><a href="https://twitter.com/JamesKalahn">James</a></span> -
+          <span class="project-title"><a href="https://twitter.com/JamesKalahn"> <strong>James</strong></a></span> -
           <span class="project-tagline">By far the project I have spent the most time on and my favourite, James is my attempt
                     to recreate Iron man's Jarvis, He is currently no where close to Jarvis but he has his own <a href="https://twitter.com/JamesKalahn">twitter account</a> and can currently answer <strong>Technical</strong>
                   questions such as Math problems, he also provides fun facts on requests.
@@ -275,7 +275,7 @@
         <!--//item-->
 
         <div class="item fa fa-certificate">
-          <span class="project-title"><a href="https://github.com/blavejr/OrganiseDesktop" target="_blank">OrganiseDesktop</a>(<a href="https://github.com/blavejr/OrganiseDesktop">Open</a>)</span> -
+          <span class="project-title"><a href="https://github.com/blavejr/OrganiseDesktop" target="_blank"> <strong>OrganiseDesktop</strong></a>(<a href="https://github.com/blavejr/OrganiseDesktop">Open</a>)</span> -
           <span class="project-tagline">I hate messy desktops and I just couldn't understand why people didnt put things in folders
                      so I decided to build a tool that will organise all the files on your desktop into different folders according to thier
                      file extensions, OrganiseDesktop is open source and available on github together with a team of great contributors from
@@ -285,7 +285,7 @@
         <!--//item-->
 
         <div class="item fa fa-certificate">
-          <span class="project-title"><a href="https://github.com/blavejr/" target="_blank">My Github</a></span> -
+          <span class="project-title"><a href="https://github.com/blavejr/" target="_blank"> <strong>My Github</strong></a></span> -
           <span class="project-tagline">More projects are available for review on my github page.</span>
         </div>
       </section>
@@ -436,18 +436,34 @@
         </div>
       </section>
     </div>
-
-
-
   </div>
   <!--//main-body-->
-  </div>
 
   <footer class="footer">
     <!-- TODO: Add my live tweets and James live stream tweets -->
-    <div class="text-center">
-      <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Remigius Kalimba </a>(Blave Kalahn)</small>
-    </div>
+    <div class="container-fluid"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+                <div class="row">
+
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="myTweetsContainer">
+                        <a class="twitter-timeline" href="https://twitter.com/BlaveKalahn?ref_src=twsrc%5Etfw">Tweets by BlaveKalahn</a>
+                          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center" id="footerMessage">
+                      <div class="container btn btn-info" id="footerButton">
+                        <h4>What I can Do for you!</h4>
+                      </div>
+                      <div class="container copyright">
+                      <p>Designed with <i class="fa fa-heart"></i> by <a href="" target="_blank">Remigius Kalimba </a>(Blave Kalahn)</p>
+                    </div>
+                    </div>
+
+                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="jamesTweetsContainer">
+                        <a class="twitter-timeline" href="https://twitter.com/JamesKalahn?ref_src=twsrc%5Etfw">Tweets by JamesKalahn</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
     <!--//container-->
   </footer>
   <!--//footer-->
