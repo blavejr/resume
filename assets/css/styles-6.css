@@ -117,13 +117,14 @@ section{
 .popUpOnHover:hover .popUpText {
     visibility: visible;
 }
+
 .nav-tabs li a{
   font-weight: 400;
   color: black;
 }
 .nav-tabs li.active a,
 .nav-tabs li.active a:focus,
-.nav-tabs>li.active>a:hover{
+.nav-tabs li.active a:hover{
   color: #f44250;
 }
 div#nav_bar.navbar-collapse.collapse.in{
