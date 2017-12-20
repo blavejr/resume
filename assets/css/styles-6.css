@@ -87,8 +87,12 @@ section{
   cursor: pointer!important;
   list-style-type: none;
 }
+.navbar li:hover{
+  background-color: #ff0000;
+  border-style: none;
+  border-radius: 10px;
+}
 .navbar-brand{
-  color: white;
   height: 90px;
   width: 90px;
 }
@@ -150,10 +154,11 @@ div#nav_bar.navbar-collapse.collapse.in{
   text-align: right!important;
 }
 #hireMeBTN{
-  border-style: dotted;
+  border-style: none;
   border-radius: 20px;
 }
 #hireMeBTN:hover{
+  border-style: dotted;
   background-color: #ff0000;
 }
 #hireMeBTN:hover {
