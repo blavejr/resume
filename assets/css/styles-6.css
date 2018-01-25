@@ -63,7 +63,7 @@ img {
   height: 300px;
 }
 section{
-  border-color: red;
+  border-color: #0f84f4;
   border-style: solid;
   padding: 10px;
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -88,7 +88,7 @@ section{
   list-style-type: none;
 }
 .navbar li:hover{
-  background-color: #ff0000;
+  background-color: #1311ff;
   border-style: none;
   border-radius: 10px;
 }
@@ -159,7 +159,7 @@ div#nav_bar.navbar-collapse.collapse.in{
 }
 #hireMeBTN:hover{
   border-style: dotted;
-  background-color: #ff0000;
+  background-color: #1311ff;
 }
 #hireMeBTN:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -411,11 +411,11 @@ div#nav_bar.navbar-collapse.collapse.in{
 }
 .skillset .level-bar {
   height: 12px;
-  background: #e99996;
+  background: #a2d2e9;
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #f44255;
+  background: #0f84f4;
 }
 .footer {
   padding: 0px;
