@@ -1,4 +1,4 @@
-0f84f4/*
+/*
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -104,7 +104,7 @@ section{
   color: white!important;
 }
 .someSpace{
-  padding: 20px
+  padding: 40px
 }
 .spacer{
   padding: 125px;
@@ -216,9 +216,6 @@ div#nav_bar.navbar-collapse.collapse.in{
   max-width: 10000px;
   margin: 0 auto;
   position: relative;
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
   background: #0f84f4;
