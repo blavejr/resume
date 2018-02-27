@@ -464,6 +464,7 @@ div#nav_bar.navbar-collapse.collapse.in{
   .sidebar-wrapper{
     visibility: hidden;
   }
+
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -483,7 +484,7 @@ div#nav_bar.navbar-collapse.collapse.in{
   }
 
   .main-wrapper{
-    padding: 60px;
+    padding: 30px;
   }
 
   .sidebar-wrapper{
