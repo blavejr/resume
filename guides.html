@@ -8,22 +8,36 @@
 <head>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113481404-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113481404-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-113481404-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WRQF938');</script>
-<!-- End Google Tag Manager -->
+    gtag('config', 'UA-113481404-1');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WRQF938');
+  </script>
+  <!-- End Google Tag Manager -->
 
   <title>Resume Remigius Kalimba - Guides</title>
   <!-- Meta -->
@@ -33,7 +47,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="description" content="Resume for Remigius Kalimba (Blave Kalahn) from Windhoek Namibia">
   <meta name="author" content="Remigius Kalimba">
   <link rel="shortcut icon" href="favicon.ico">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
   <!-- Global CSS -->
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
   <!-- Plugins CSS -->
@@ -49,34 +64,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 
-  <div class="container-fluid someSpace hidden-xs">
-
-  </div>
-
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="caret"></span></a>
-        </button>
-
-      </div>
-      <div id="nav_bar" class="collapse navbar-collapse">
-      <ul>
-          <li><a  id="topBTN" href="index.html" ><img class="navbar-brand" src="assets/images/profile.jpg" /></a></li>
-      </ul>
-        <ul class="nav navbar-nav">
-          <li class="btn"><a id="blogBTN" href="blog.html">Blog</a></li>
-          <li class="btn"><a id="hireMeBTN" href="doForYou.html">What I can do for you!</a></li>
-          <li class="btn"><a id="hireMeBTN" href="portfolio.html">My Portfolio</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <div class="someSpace">
 
   </div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="caret"></span>
+          </a>
+        </button>
+
+      </div>
+      <div id="nav_bar" class="collapse navbar-collapse">
+        <ul>
+          <li>
+            <a id="topBTN" href="index.html">
+              <img class="navbar-brand" src="assets/images/profile.jpg" />
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="btn">
+            <a id="blogBTN" href="blog.html">Blog</a>
+          </li>
+          <li class="btn">
+            <a id="hireMeBTN" href="doForYou.html">What I can do for you!</a>
+          </li>
+          <li class="btn">
+            <a id="hireMeBTN" href="portfolio.html">My Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <div class="wrapper">
     <div class="sidebar-wrapper">
@@ -84,16 +106,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <img class="profile" src="assets/images/profile.jpg" alt="" />
         <h1 class="name animated jello">Remigius Kalimba</h1>
 
-          <div class="popUpOnHover">
-            <h3 class="tagline">Full Stack Developer</h3>
-            <span class="popUpText">
-              a full-stack developer is familiar with all
-              layers in software development. These developers aren't experts at everything;
-              but they have functional knowledge of all the stages
-              and the ability to take a concept and turn it into a finished product.
-            </span>
-          </div>
-          <br>
+        <div class="popUpOnHover">
+          <h3 class="tagline">Full Stack Developer</h3>
+          <span class="popUpText">
+            a full-stack developer is familiar with all layers in software development. These developers aren't experts at everything;
+            but they have functional knowledge of all the stages and the ability to take a concept and turn it into a finished
+            product.
+          </span>
+        </div>
+        <br>
         <q cite="">It's not a bug its a feature.</q>
       </div>
       <!--//profile-container-->
@@ -101,14 +122,39 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <div class="contact-container container-block">
         <ul class="list-unstyled contact-list">
-          <li class="email"><i class="fa fa-envelope"></i><a href="mailto: yourname@email.com">kalimbatech@gmail.com</a></li>
-          <li class="phone"><i class="fa fa-phone"></i><a href="tel:0123 456 789">+264 81 243 504 8</a></li>
-          <li class="location"><i class="fa fa-location-arrow"></i><a href="tel:0123 456 789">Windhoek, Namibia</a></li>
-          <li class="website"><i class="fa fa-globe"></i><a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">portfoliosite.com</a></li>
-          <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/remigius-kalimba-074184148/" target="_blank">linkedin/remigiuskalimba</a></li>
-          <li class="github"><i class="fa fa-github"></i><a href="https://github.com/blavejr" target="_blank">github.com/blavejr</a></li>
-          <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/4bitDigitalNam" target="_blank">@4bitDigitalNam</a></li>
-          <li class="facebook"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/blavejr" target="_blank">Blave Kalahn</a></li>
+          <li class="email">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto: yourname@email.com">kalimbatech@gmail.com</a>
+          </li>
+          <li class="phone">
+            <i class="fa fa-phone"></i>
+            <a href="tel:0123 456 789">+264 81 243 504 8</a>
+          </li>
+          <li class="location">
+            <i class="fa fa-location-arrow"></i>
+            <a href="tel:0123 456 789">Windhoek, Namibia</a>
+          </li>
+          <li class="website">
+            <i class="fa fa-globe"></i>
+            <a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/"
+              target="_blank">portfoliosite.com</a>
+          </li>
+          <li class="linkedin">
+            <i class="fa fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/remigius-kalimba-074184148/" target="_blank">linkedin/remigiuskalimba</a>
+          </li>
+          <li class="github">
+            <i class="fa fa-github"></i>
+            <a href="https://github.com/blavejr" target="_blank">github.com/blavejr</a>
+          </li>
+          <li class="twitter">
+            <i class="fa fa-twitter"></i>
+            <a href="https://twitter.com/4bitDigitalNam" target="_blank">@4bitDigitalNam</a>
+          </li>
+          <li class="facebook">
+            <i class="fa fa-facebook"></i>
+            <a href="https://www.facebook.com/blavejr" target="_blank">Blave Kalahn</a>
+          </li>
         </ul>
       </div>
       <!--//contact-container-->
@@ -126,11 +172,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="languages-container container-block">
         <h2 class="container-block-title">Languages</h2>
         <ul class="list-unstyled interests-list">
-          <li>English <span class="lang-desc">(Excellent)</span></li>
-          <li>Afrikaans <span class="lang-desc">(Good)</span></li>
-          <li>Oshiwambo <span class="lang-desc">(Good)</span></li>
-          <li>Portuguese <span class="lang-desc">(poor)</span></li>
-          <li>French <span class="lang-desc">(I know about 5 words but I am learning)</span></li>
+          <li>English
+            <span class="lang-desc">(Excellent)</span>
+          </li>
+          <li>Afrikaans
+            <span class="lang-desc">(Good)</span>
+          </li>
+          <li>Oshiwambo
+            <span class="lang-desc">(Good)</span>
+          </li>
+          <li>Portuguese
+            <span class="lang-desc">(poor)</span>
+          </li>
+          <li>French
+            <span class="lang-desc">(I know about 5 words but I am learning)</span>
+          </li>
         </ul>
       </div>
       <!--//interests-->
@@ -154,22 +210,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="container text-center prayer">
         <h1>Let us code</h1>
         <q cite="">
-          Our program, who art in memory,
-          called by thy name;
-          thy operating system run;
-          thy function behave at runtime
-          as it has during development.
-          Give us this day our daily output.
-          And forgive us our code duplication,
-          as we forgive those who
-          duplicate code against us.
-          And lead us not into frustration;
-          but deliver us from syntax errors.
-          For thine is the algorithm,
-          the computation, and the solution,
-          looping forever and ever.
-          <br>
-          Return;
+          Our program, who art in memory, called by thy name; thy operating system run; thy function behave at runtime as it has during
+          development. Give us this day our daily output. And forgive us our code duplication, as we forgive those who duplicate
+          code against us. And lead us not into frustration; but deliver us from syntax errors. For thine is the algorithm,
+          the computation, and the solution, looping forever and ever.
+          <br> Return;
         </q>
       </div>
 
@@ -180,106 +225,106 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <section class="section blog-section text-center" id="experienceSection">
         <h1>Guides</h1>
         <h5>
-          The following are a collection of `how to do's` for technologies that could help on your journey as a developer, I am not claiming
-          to be an expert at any of these technologies, as a matter of fact I actually write these guides as I learn about the different technologies
-          I learn better when I teach someone else and most of my programming knowledge comes from blogs from all over the internet so the chance to give
-          back to the next junior developer looking for a solution is something I am happy to do.
+          The following are a collection of `how to do's` for technologies that could help on your journey as a developer, I am not
+          claiming to be an expert at any of these technologies, as a matter of fact I actually write these guides as I learn
+          about the different technologies I learn better when I teach someone else and most of my programming knowledge
+          comes from blogs from all over the internet so the chance to give back to the next junior developer looking for
+          a solution is something I am happy to do.
           <br>
-          <br>
-          Like my Blogs these `guides` are never complete and I will update them as I go on in life and learn, they are not structured or 
-          designed to be a complete guide but rather an introduction to get you started or give you an idea about how to use the tech.
-          <br>
-          I hope you have fun, happy learning and remember "The kids will be alright!".
+          <br> Like my Blogs these `guides` are never complete and I will update them as I go on in life and learn, they are
+          not structured or designed to be a complete guide but rather an introduction to get you started or give you an
+          idea about how to use the tech.
+          <br> I hope you have fun, happy learning and remember "The kids will be alright!".
         </h5>
         <br>
 
         <div class="item" id="blogItem">
-          <a href="#">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/git.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">Git</h3>
-              <p class="card-text">Version control</p>
+          <a href="guides/guideGit.html">
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/git.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Git</h3>
+                <p class="card-text">Version control</p>
 
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="item" id="blogItem">
           <a href="#">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/stack-overflow.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">Stack Overflow</h3>
-              <p class="card-text">Working together</p>
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/stack-overflow.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Stack Overflow</h3>
+                <p class="card-text">Working together</p>
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="item" id="blogItem">
           <a href="guides/guideDocker.html">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/docker.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">Docker</h3>
-              <p class="card-text">I don't know yet</p>
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/docker.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Docker</h3>
+                <p class="card-text">I don't know yet</p>
 
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="item" id="blogItem">
           <a href="#">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/regex.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">RegExp</h3>
-              <p class="card-text">Strings can be fun</p>
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/regex.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">RegExp</h3>
+                <p class="card-text">Strings can be fun</p>
 
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="item" id="blogItem">
           <a href="#">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/bootstraps.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">Bootstraps</h3>
-              <p class="card-text">Front end made easy</p>
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/bootstraps.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Bootstraps</h3>
+                <p class="card-text">Front end made easy</p>
 
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="item" id="blogItem">
           <a href="#">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/vim.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">Vim</h3>
-              <p class="card-text">The editor in your terminal</p>
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/vim.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Vim</h3>
+                <p class="card-text">The editor in your terminal</p>
 
+              </div>
             </div>
-          </div>
           </a>
         </div>
 
         <div class="item" id="blogItem">
           <a href="#">
-          <div class="card mb-3">
-            <img class="card-img-top" src="assets/images/guides/node.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">Nodejs</h3>
-              <p class="card-text">Javascript Backend.</p>
+            <div class="card mb-3">
+              <img class="card-img-top" src="assets/images/guides/node.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Nodejs</h3>
+                <p class="card-text">Javascript Backend.</p>
 
+              </div>
             </div>
-          </div>
           </a>
         </div>
       </section>
@@ -289,26 +334,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <footer class="footer">
     <!-- TODO: Add my live tweets and James live stream tweets -->
-    <div class="container-fluid"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
-                <div class="row">
+    <div class="container-fluid">
+      <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+      <div class="row">
 
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="myTweetsContainer">
-                        <a class="twitter-timeline" href="https://twitter.com/4bitDigitalNam?ref_src=twsrc%5Etfw">Tweets by 4bitDigitalNam</a>
-                          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="myTweetsContainer">
+          <a class="twitter-timeline" href="https://twitter.com/4bitDigitalNam?ref_src=twsrc%5Etfw">Tweets by 4bitDigitalNam</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
 
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center" id="footerMessage">
-                      <div class="container copyright">
-                      <p>Designed with <i class="fa fa-heart"></i> by <a href="" target="_blank">Remigius Kalimba </a>(Blave Kalahn)</p>
-                    </div>
-                    </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center" id="footerMessage">
+          <div class="container copyright">
+            <p>Designed with
+              <i class="fa fa-heart"></i> by
+              <a href="" target="_blank">Remigius Kalimba </a>(Blave Kalahn)</p>
+          </div>
+        </div>
 
-                    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="jamesTweetsContainer">
-                        <a class="twitter-timeline" href="https://twitter.com/JamesKalahn?ref_src=twsrc%5Etfw">Tweets by JamesKalahn</a>
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
-            </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="jamesTweetsContainer">
+          <a class="twitter-timeline" href="https://twitter.com/JamesKalahn?ref_src=twsrc%5Etfw">Tweets by JamesKalahn</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
     <!--//container-->
   </footer>
   <!--//footer-->
