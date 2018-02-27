@@ -461,10 +461,13 @@ div#nav_bar.navbar-collapse.collapse.in{
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+  .sidebar-wrapper{
+    visibility: hidden;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 1200px) {
   .skillset .level-title {
     display: inline-block;
     float: left;
@@ -477,6 +480,14 @@ div#nav_bar.navbar-collapse.collapse.in{
     float: left;
     position: relative;
     top: 1px;
+  }
+
+  .main-wrapper{
+    padding: 60px;
+  }
+
+  .sidebar-wrapper{
+    visibility: hidden;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
