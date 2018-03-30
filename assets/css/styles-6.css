@@ -132,9 +132,6 @@ section {
 }
 
 .accomplishmentsContainer {
-  padding-left: 0px;
-  margin-left: 0px;
-  text-align: left;
   width: 100%;
 }
 
@@ -270,7 +267,7 @@ div#nav_bar.navbar-collapse.collapse.in {
 }
 
 .sidebar-wrapper .profile-container {
-  padding: 30px;
+  padding-top: 40px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
@@ -314,7 +311,7 @@ div#nav_bar.navbar-collapse.collapse.in {
 }
 
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 20px;
 }
 
 .sidebar-wrapper .container-block-title {
@@ -472,6 +469,14 @@ div#nav_bar.navbar-collapse.collapse.in {
   margin-bottom: 15px;
 }
 
+.projects-icon {
+  font-size: 30px;
+}
+
+.projects-name {
+  font-size: 20px;
+}
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
@@ -491,6 +496,16 @@ div#nav_bar.navbar-collapse.collapse.in {
 .skillset .level-bar-inner {
   height: 12px;
   background: #0f84f4;
+}
+
+/* Accomplishments */
+
+.margin {
+  margin: 0px;
+}
+
+.card-img-top {
+  border-radius: 0;
 }
 
 .footer {
@@ -526,7 +541,7 @@ div#nav_bar.navbar-collapse.collapse.in {
 
 #footerButton {
   margin: auto;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 @media (max-width: 767px) {
@@ -536,8 +551,6 @@ div#nav_bar.navbar-collapse.collapse.in {
   }
   .main-wrapper {
     padding: 30px;
-    position: relative;
-    top: -1550px;
   }
   .main-wrapper .time {
     position: static;
@@ -548,13 +561,17 @@ div#nav_bar.navbar-collapse.collapse.in {
     margin-bottom: 0;
   }
   .sidebar-wrapper {
-    visibility: hidden;
+    display: none;
   }
   .someSpace {
     height: 110%;
   }
   .wrapper {
     height: 100%;
+  }
+  footer {
+    position: relative;
+    top: 150px;
   }
 }
 

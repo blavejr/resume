@@ -47,15 +47,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Resume for Remigius Kalimba (Blave Kalahn) from Windhoek Namibia">
+  <meta name="description" content="Resume for Remigius Kalimba (Blave Kalahn) from Windhoek Namibia Namibian software developer programmer web webdeveloper">
   <meta name="author" content="Remigius Kalimba">
   <link rel="shortcut icon" href="favicon.ico">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
     rel='stylesheet' type='text/css'>
   <!-- Global CSS -->
-  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
   <!-- Plugins CSS -->
-  <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
   <!-- animate.css -->
   <link rel="stylesheet" href="assets/css/animate.css">
   <!-- Theme CSS -->
@@ -66,59 +68,49 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top  ">
+    <a id="topBTN" href="index.html">
+      <img class="navbar-brand" src="assets/images/profile.jpg" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="someSpace">
-
-  </div>
-
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="caret"></span>
-        </button>
-
-      </div>
-      <div id="nav_bar" class="collapse navbar-collapse">
-        <ul>
-          <li>
-            <a id="topBTN" href="index.html">
-              <img class="navbar-brand" src="assets/images/profile.jpg" />
-            </a>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav">
-          <li class="btn">
-            <a id="aboutBTN">About me</a>
-          </li>
-          <li class="btn">
-            <a id="experienceBTN">Experience</a>
-          </li>
-          <li class="btn">
-            <a id="projectsBTN">Projects</a>
-          </li>
-          <li class="btn">
-            <a id="skillsBTN">Skills</a>
-          </li>
-          <li class="btn">
-            <a id="accomplishmentsBTN">accomplishments</a>
-          </li>
-          <li class="btn">
-            <a id="blogBTN" href="blog.html">Blog</a>
-          </li>
-          <li class="btn">
-            <a id="blogBTN" href="guides.html">Guides</a>
-          </li>
-          <li class="btn">
-            <a id="hireMeBTN" href="doForYou.html">What I can do for you!</a>
-          </li>
-          <li class="btn">
-            <a id="hireMeBTN" href="portfolio.html">My Portfolio</a>
-          </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav">
+        <li class="btn">
+          <a id="aboutBTN" href="#">About me</a>
+        </li>
+        <li class="btn">
+          <a id="experienceBTN" href="#">Experience</a>
+        </li>
+        <li class="btn">
+          <a id="projectsBTN" href="#">Projects</a>
+        </li>
+        <li class="btn">
+          <a id="skillsBTN" href="#">Skills</a>
+        </li>
+        <li class="btn">
+          <a id="accomplishmentsBTN" href="#">accomplishments</a>
+        </li>
+        <li class="btn">
+          <a id="blogBTN" href="blog.html">Blogs</a>
+        </li>
+        <li class="btn">
+          <a id="blogBTN" href="guides.html">Guides</a>
+        </li>
+        <li class="btn">
+          <a id="hireMeBTN" href="doForYou.html">What I can do for you!</a>
+        </li>
+        <li class="btn">
+          <a id="hireMeBTN" href="portfolio.html">My Portfolio</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
+  <div class="someSpace"></div>
 
   <div class="wrapper">
     <div class="sidebar-wrapper">
@@ -156,8 +148,7 @@
           </li>
           <li class="website">
             <i class="fa fa-globe"></i>
-            <a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/"
-              target="_blank">portfoliosite.com</a>
+            <a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">portfoliosite.com</a>
           </li>
           <li class="linkedin">
             <i class="fa fa-linkedin"></i>
@@ -245,18 +236,17 @@
 
       <section class="announcements" style="margin-bottom: 20px;">
         <div class="text-center">
-          <h1>Announcements board</h1>
+          <h1 class="animated rubberBand">Announcements board</h1>
         </div>
 
-        <p style="color:red;">Note: Dear mobile device visitors, I have heard all your complaints about the mobile responsiveness, thank you for
-          your input I will work to solve this.
-          <br> The desktop view is fine though and I suggest you use that for the mean time. thank you and enjoy.
+        <p style="color:red;">Note: All mobile issues have been fixed. thank you for pointing them out and if anybody does find anymore
+          issues please do not hesitate to whatsapp, message or send me an email.
           <br>
           <br>
         </p>
         <div class="text-center">
-            <h3>coming soon</h3>
-          </div>
+          <h3>coming soon</h3>
+        </div>
         <p>
           <h4>blogs</h4>
           <ul>
@@ -265,7 +255,7 @@
             <li>Neural Nets, seems we discovered something powerful but dont have the power to run it yet</li>
             <li>Quantum Computing</li>
           </ul>
-          
+
           <h4>guides</h4>
           <ul>
             <li>Vuejs - I just started learning this really powerful front end framework and I will start making some tutorials
@@ -435,10 +425,11 @@
           </p>
         </div>
         <!--//intro-->
-        <div class="item fa fa-certificate">
+        <div>
+          <i class="projects-icon fa fa-android"></i>
           <span class="project-title">
             <a href="https://twitter.com/JamesKalahn">
-              <strong>James</strong>
+              <strong class="projects-name">James</strong>
             </a>
           </span> -
           <span class="project-tagline">By far the project I have spent the most time on and my favourite, James is my attempt to recreate Iron man's Jarvis,
@@ -453,10 +444,11 @@
         </div>
         <!--//item-->
 
-        <div class="item fa fa-certificate">
+        <div>
+          <i class="projects-icon fa fa-desktop"></i>
           <span class="project-title">
             <a href="https://github.com/blavejr/OrganiseDesktop" target="_blank">
-              <strong>OrganiseDesktop</strong>
+              <strong class="projects-name">OrganiseDesktop</strong>
             </a>(
             <a href="https://github.com/blavejr/OrganiseDesktop">Open</a>)</span> -
           <span class="project-tagline">I hate messy desktops and I just couldn't understand why people didnt put things in folders so I decided to build
@@ -467,10 +459,11 @@
         </div>
         <!--//item-->
 
-        <div class="item fa fa-certificate">
+        <div>
+          <i class="projects-icon fa fa-github"></i>
           <span class="project-title">
             <a href="https://github.com/blavejr/" target="_blank">
-              <strong>My Github</strong>
+              <strong class="projects-name">My Github</strong>
             </a>
           </span> -
           <span class="project-tagline">More projects are available for review on my github page.</span>
@@ -513,7 +506,7 @@
           <!--//item-->
 
           <div class="item">
-            <h3 class="level-title">Javascript, jQuery &amp; Nodejs</h3>
+            <h3 class="level-title">Javascript, jQuery &amp; Nodejs, Vuejs</h3>
             <div class="level-bar">
               <div class="level-bar-inner" data-level="70%">
               </div>
@@ -609,52 +602,76 @@
 
       <!-- accomplishments Section -->
       <section>
-        <div class="container accomplishmentsContainer" id="accomplishmentsSection">
+        <div class="container-fluid accomplishmentsContainer" id="accomplishmentsSection">
           <h2 class="section-title animated bounceInRight animated bounceInRight">
             <i class="fa fa-trophy animated bounceInLeft"></i>Accomplishments</h2>
           <p>The following is a list of some of the things I consider to be accomplishments.</p>
 
-          <ul class="nav nav-tabs">
-            <li class="active">
-              <a data-toggle="tab" href="#home">Microsoft</a>
-            </li>
-            <li>
-              <a data-toggle="tab" href="#menu1">IT Society</a>
-            </li>
-            <li>
-              <a data-toggle="tab" href="#menu2">Developers Club</a>
-            </li>
-            <li>
-              <a data-toggle="tab" href="#menu3">Python Developers</a>
-            </li>
-            <li>
-              <a data-toggle="tab" href="#menu4">My Thesis</a>
-            </li>
-          </ul>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3 margin">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/images/accomplishments/1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Microsoft imagine cup qualification (2016)</h5>
+                    <p class="card-text">The Microsoft Imagine cup is a world wide competion held by microsoft to encourage the youth to come
+                      up with new ideas in Information Technology, My project recieved first prize during the qualification
+                      rounds and went on to the nationals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 margin">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/images/accomplishments/4.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Vice President of IT society</h5>
+                    <p class="card-text">IT Society was set up to encourage students on campus to embrace technology, our duty was to keep the
+                      students interested and active in Information Technology by solving problems they had with IoT and
+                      software.</p>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 margin">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/images/accomplishments/3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Java/Android developers club, (2013 – 2015)</h5>
+                    <p class="card-text">A club to help peers learn about java and Android via a peer to peer learning system.
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 margin">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="assets/images/accomplishments/2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Started Python club (2015 – 2016)</h5>
+                    <p class="card-text">A club to help peers learn about Python and its magic via a peer to peer learning system.
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-              <h3>Microsoft imagine cup qualification (2016)</h3>
-              <p>
-                The Microsoft Imagine cup is a world wide competion held by microsoft to encourage the youth to come up with new ideas in
-                Information Technology, My project recieved first prize during the qualification rounds and went on to the
-                nationals.
-              </p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-              <h3>Vice President of IT society</h3>
-              <p>IT Society was set up to encourage students on campus to embrace technology, our duty was to keep the students
-                interested and active in Information Technology by solving problems they had with IoT and software.
-              </p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-              <h3>Java/Android developers club, (2013 – 2015)</h3>
-              <p>A club to help peers learn about java and Android via a peer to peer learning system.</p>
-            </div>
-            <div id="menu3" class="tab-pane fade">
-              <h3>Started Python club (2015 – 2016)</h3>
-              <p>A club to help peers learn about Python and its magic via a peer to peer learning system.</p>
-            </div>
             <div id="menu4" class="tab-pane fade">
               <h3>
                 <a href="#">
@@ -709,7 +726,7 @@
 
   <!-- Javascript -->
   <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/custom.js"></script>
   <!-- custom js -->
   <script type="text/javascript" src="assets/js/main.js"></script>
