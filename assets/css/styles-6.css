@@ -97,6 +97,10 @@ img {
   height: 300px;
 }
 
+.card-body{
+  min-height: 180px;
+}
+
 section {
   border-color: var(--primary-color);
   border-style: solid;
