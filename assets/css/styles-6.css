@@ -255,6 +255,17 @@ div#nav_bar.navbar-collapse.collapse.in {
   margin: 0px 0px 90px;
 }
 
+/* START MUSIC */
+
+.card{
+  box-shadow: 18px 15px 21px gray;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 35px;
+}
+
+/* END MUSIC */
+
 #myTweetsContainer {
   max-height: 200px;
   overflow-y: scroll;
