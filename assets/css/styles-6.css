@@ -250,8 +250,6 @@ div#nav_bar.navbar-collapse.collapse.in {
 .blog-img {
   width: 70%;
   height: auto;
-  border: solid;
-  border-color: var(--primary-color);
   border-radius: 12px;
   box-shadow: 18px 15px 21px gray;
   margin: 0px 0px 90px;
