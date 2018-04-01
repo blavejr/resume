@@ -11,6 +11,10 @@
 
 /* ======= Base ======= */
 
+:root {
+  --primary-color: #0f84f4;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -30,6 +34,18 @@ body {
   padding: 0px;
   height: 100%;
   width: 100%;
+}
+
+hr {
+  background-color: var(--primary-color);
+}
+
+.hr-10 {
+  width: 10%;
+}
+
+.hr-30 {
+  width: 30%;
 }
 
 h1,
@@ -59,6 +75,10 @@ a:focus {
   text-decoration: none;
 }
 
+.white-text {
+  color: white !important;
+}
+
 p {
   line-height: 1.5;
   font-size: 14px;
@@ -78,7 +98,7 @@ img {
 }
 
 section {
-  border-color: #0f84f4;
+  border-color: var(--primary-color);
   border-style: solid;
   padding: 10px;
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -92,8 +112,8 @@ section {
 }
 
 .navbar {
-  background: #0f84f4;
-  border-color: #0f84f4;
+  background: var(--primary-color);
+  border-color: var(--primary-color);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
@@ -169,7 +189,7 @@ section {
 .nav-tabs li.active a,
 .nav-tabs li.active a:focus,
 .nav-tabs li.active a:hover {
-  color: #0f84f4;
+  color: var(--primary-color);
 }
 
 div#nav_bar.navbar-collapse.collapse.in {
@@ -227,6 +247,16 @@ div#nav_bar.navbar-collapse.collapse.in {
   border-style: none;
 }
 
+.blog-img {
+  width: 70%;
+  height: auto;
+  border: solid;
+  border-color: var(--primary-color);
+  border-radius: 12px;
+  box-shadow: 18px 15px 21px gray;
+  margin: 0px 0px 90px;
+}
+
 #myTweetsContainer {
   max-height: 200px;
   overflow-y: scroll;
@@ -245,14 +275,14 @@ div#nav_bar.navbar-collapse.collapse.in {
 }
 
 .wrapper {
-  background: #0f84f4;
+  background: var(--primary-color);
   max-width: 100%;
   margin: 0 auto;
   position: relative;
 }
 
 .sidebar-wrapper {
-  background: #0f84f4;
+  background: var(--primary-color);
   position: absolute;
   right: 0;
   width: 240px;
@@ -495,7 +525,7 @@ div#nav_bar.navbar-collapse.collapse.in {
 
 .skillset .level-bar-inner {
   height: 12px;
-  background: #0f84f4;
+  background: var(--primary-color);
 }
 
 /* Accomplishments */
