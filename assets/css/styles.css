@@ -261,6 +261,10 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
+
+.announcementHeader{
+  font-size: 26px!important;
+}
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
@@ -278,6 +282,8 @@ p {
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+
+
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

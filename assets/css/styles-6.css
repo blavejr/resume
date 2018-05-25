@@ -618,6 +618,16 @@ div#nav_bar.navbar-collapse.collapse.in {
   }
 }
 
+@media (max-width: 767px){
+  .announcementHeader{
+    font-size: 26px!important;
+  }
+
+  .card{
+    width: 40vh!important;
+  }
+}
+
 @media (max-width:1300px) and (min-width:767px) {
   .sidebar-wrapper {
     position: static;
